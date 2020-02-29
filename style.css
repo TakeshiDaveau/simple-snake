@@ -1,0 +1,84 @@
+body {
+	font-family: 'Open Sans';
+	background: url('background2.png') repeat
+}
+h1 {
+	font-family: 'Museo-500';
+    color: #205789;
+    font-size: 36px;
+}
+h1 img {
+	height: 36px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#playground {
+	width: 700px;
+	height: 400px;
+	border: 5px solid #666;
+	position: relative;
+	background: #fff url(background.png) center no-repeat;
+}
+
+.score-bar {
+    font-size: 24px;
+    width: 705px;
+    border-left: 5px solid #205789;
+    margin-bottom: 10px;
+}
+.score-bar .score-label {
+	padding: 10px;
+    display: inline-block;
+}
+.score-bar .score {
+	font-family: 'Museo-500';
+	padding: 10px;
+	width: 150px;
+    display: inline-block;
+    text-align: right;
+    color: #a60b47;
+    font-weight: bold;
+}
+
+.item {
+	height: 15px;
+	width: 15px;
+	position: absolute;
+}
+.snake-head {
+	background: url(favicon.png) no-repeat center;
+	background-size:cover;	
+	top: 0;
+	left: 0
+}
+.snake-tale {
+	background-color: grey;
+}
+
+kbd{
+    padding:2px 4px;
+    white-space:nowrap;
+    color:#000;
+    background:#eee;
+    border-width:1px 3px 3px 1px;
+    border-style:solid;
+    border-color:#ccc #aaa #888 #bbb;
+}
+
+.button-raz {
+	font-size: 20px;
+    background: #a60c47;
+    float: right;
+    height: 53px;
+    color: #fff !important;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    -webkit-appearance: none;
+    border-bottom: 0 !important;
+    text-shadow: none;
+	padding: 0 20px;
+}
+.button-raz:hover {
+	background: rgb(216, 17, 93);
+}
